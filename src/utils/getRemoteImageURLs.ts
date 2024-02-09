@@ -3,7 +3,7 @@ import fs from "fs";
 const path2 = require("path");
 const fs2 = require("fs");
 const { promisify } = require('util')
-const directoryPath = path2.join(__dirname, '../../../../temp_img');
+const directoryPath = path2.join(__dirname, '../../../../../temp_img');
 const readdir = promisify(require('fs').readdir)
 const stat = promisify(require('fs').stat)
 
