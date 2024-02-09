@@ -4,6 +4,7 @@
   "description": "Optimizes all static images for Next.js static HTML export functionality",
   "main": "dist/ExportedImage.js",
   "types": "dist/ExportedImage.d.ts",
+  "type": "module",
   "bin": "dist/optimizeImages.js",
   "engines": {
     "node": ">=16.0.0"
